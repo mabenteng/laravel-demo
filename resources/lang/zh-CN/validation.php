@@ -11,7 +11,7 @@ return [
     | as the size rules. Feel free to tweak each of these messages.
     |
     */
-
+    'captcha'=>'验证码匹配错误',
     'accepted'             => '您必须接受 :attribute。',
     'active_url'           => ':attribute 不是一个有效的网址。',
     'after'                => ':attribute 必须要晚于 :date。',
@@ -173,5 +173,8 @@ return [
         'time'                  => '时间',
         'available'             => '可用的',
         'size'                  => '大小',
+        'addr'  =>'地址',
+        'capt'=>'验证码'
     ],
+
 ];
